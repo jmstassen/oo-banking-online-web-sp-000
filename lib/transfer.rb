@@ -23,6 +23,7 @@ class Transfer
       receiver.old_balance = receiver.balance
       sender.balance -= amount
       receiver.balance += amount
+      @status = "complete"
     else
       return "invalid"
     end
