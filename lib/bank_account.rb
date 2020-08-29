@@ -12,4 +12,11 @@ class BankAccount
     @old_balance = @balance
     @balance = @balance + amount
   end
+
+  def display_balance
+    puts "Your balance is $#{@balance}"
+  end
+
+
+
 end
