@@ -10,6 +10,6 @@ class BankAccount
 
   def deposit(amount)
     @old_balance = @balance
-    @balace = @balance + amount
+    @balace = @balance + amount.to_i
   end
 end
